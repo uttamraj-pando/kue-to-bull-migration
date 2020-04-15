@@ -1,0 +1,22 @@
+{
+  "name": "kue-to-bull-migration",
+  "version": "1.0.0",
+  "description": "A one time migration script from kue to bull nodejs queuing system",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "kue",
+    "bull",
+    "queue",
+    "migration"
+  ],
+  "author": "uttamrajrangapur@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^3.13.0",
+    "bull-arena": "^2.8.1",
+    "kue": "^0.11.6"
+  }
+}
